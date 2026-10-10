@@ -14,13 +14,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-panelas-tramontina-turim",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-1.jpg?v=1791591865719",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-1.jpg?v=1791591865719",
     "status": "available",
     "sort_order": 1,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:59.11315+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 142,
@@ -35,13 +35,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.magazineluiza.com.br/busca/panela+de+pressao+tramontina/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-2.jpg?v=1791591897055",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-2.jpg?v=1791591897055",
     "status": "available",
     "sort_order": 2,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:56.271125+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 143,
@@ -56,13 +56,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-assadeiras-tramontina-inox",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-3.jpg?v=1791591937479",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-3.jpg?v=1791591937479",
     "status": "available",
     "sort_order": 3,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:36.710991+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 144,
@@ -77,13 +77,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-talheres-tramontina-ipanema",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-4.jpg?v=1791591866955",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-4.jpg?v=1791591866955",
     "status": "available",
     "sort_order": 4,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:26.135592+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 145,
@@ -98,13 +98,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/faqueiro-tramontina-24-pecas",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-5.jpg?v=1791591867567",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-5.jpg?v=1791591867567",
     "status": "reserved",
     "sort_order": 5,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:26.743982+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 146,
@@ -119,13 +119,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-jantar-oxford-porcelana",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-6.jpg?v=1791591898025",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-6.jpg?v=1791591898025",
     "status": "available",
     "sort_order": 6,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:57.195842+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 147,
@@ -140,13 +140,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/aparelho-de-jantar-oxford-completo",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-7.jpg?v=1791591868424",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-7.jpg?v=1791591868424",
     "status": "available",
     "sort_order": 7,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:27.651961+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 148,
@@ -161,13 +161,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-xicaras-de-cafe-oxford",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-8.jpg?v=1791591938496",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-8.jpg?v=1791591938496",
     "status": "available",
     "sort_order": 8,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:37.675261+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 149,
@@ -182,13 +182,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-xicaras-de-cha-oxford",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-9.jpg?v=1791591869062",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-9.jpg?v=1791591869062",
     "status": "reserved",
     "sort_order": 9,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:28.258038+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 150,
@@ -203,13 +203,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-potes-hermeticos-tramontina",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-10.jpg?v=1791591869731",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-10.jpg?v=1791591869731",
     "status": "available",
     "sort_order": 10,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:28.908962+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 151,
@@ -224,13 +224,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/potes-de-mantimentos-hermeticos",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-11.jpg?v=1791591870362",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-11.jpg?v=1791591870362",
     "status": "available",
     "sort_order": 11,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:29.53642+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 152,
@@ -245,13 +245,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/conjunto-utensilios-silicone-tramontina",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-12.jpg?v=1791591898792",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-12.jpg?v=1791591898792",
     "status": "available",
     "sort_order": 12,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:57.964875+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 153,
@@ -266,13 +266,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://analisamelhor.com.br/melhor-air-fryer-custo-beneficio/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-13.jpg?v=1791591871243",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-13.jpg?v=1791591871243",
     "status": "available",
     "sort_order": 13,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:30.420804+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 154,
@@ -287,13 +287,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.magazineluiza.com.br/busca/microondas+electrolux+20+litros/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-14.jpg?v=1791591871811",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-14.jpg?v=1791591871811",
     "status": "available",
     "sort_order": 14,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:30.986196+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 155,
@@ -308,13 +308,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.magazineluiza.com.br/busca/fogao+5+bocas+inox/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-15.jpg?v=1791591872368",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-15.jpg?v=1791591872368",
     "status": "available",
     "sort_order": 15,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:31.54887+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 156,
@@ -329,13 +329,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://mistercupom.com.br/batedeira-planetaria-magazine-luiza-preco-completo-revelado/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-16.jpg?v=1791591872953",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-16.jpg?v=1791591872953",
     "status": "available",
     "sort_order": 16,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:32.142022+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 157,
@@ -350,13 +350,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://amoprodutinhos.com.br/melhores-liquidificadores/",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-17.jpg?v=1791591873542",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-17.jpg?v=1791591873542",
     "status": "available",
     "sort_order": 17,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:32.715924+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 158,
@@ -371,13 +371,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/chaleira-eletrica-inox",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-18.jpg?v=1791591874104",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-18.jpg?v=1791591874104",
     "status": "available",
     "sort_order": 18,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:33.277288+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 159,
@@ -392,13 +392,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/grill-sanduicheira-cadence-colors",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-19.jpg?v=1791591874640",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-19.jpg?v=1791591874640",
     "status": "available",
     "sort_order": 19,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:33.818923+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 160,
@@ -413,13 +413,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.madesa.com/collections/guarda-roupa-6-portas",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-20.jpg?v=1791591875332",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-20.jpg?v=1791591875332",
     "status": "available",
     "sort_order": 20,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:34.505885+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 161,
@@ -434,13 +434,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/ferro-de-passar-a-vapor-philco",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-21.jpg?v=1791591875869",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-21.jpg?v=1791591875869",
     "status": "available",
     "sort_order": 21,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:35.047398+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 162,
@@ -455,13 +455,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/cabeceira-modulada-madesa",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-22.jpg?v=1791591876466",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-22.jpg?v=1791591876466",
     "status": "available",
     "sort_order": 22,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:35.63975+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 163,
@@ -476,13 +476,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-lencol-casal-200-fios",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-23.jpg?v=1791591877085",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-23.jpg?v=1791591877085",
     "status": "available",
     "sort_order": 23,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:36.257472+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 164,
@@ -497,13 +497,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/edredom-casal-queen-300-fios",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-24.jpg?v=1791591878077",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-24.jpg?v=1791591878077",
     "status": "available",
     "sort_order": 24,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:37.556496+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 165,
@@ -518,13 +518,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/colcha-de-cama-casal-matelasse",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-25.jpg?v=1791591879050",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-25.jpg?v=1791591879050",
     "status": "available",
     "sort_order": 25,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:38.226388+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 166,
@@ -539,13 +539,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/kit-2-travesseiros-fibra-siliconizada",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-26.jpg?v=1791591879691",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-26.jpg?v=1791591879691",
     "status": "received",
     "sort_order": 26,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:38.865884+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 167,
@@ -560,13 +560,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/cortina-blackout-corta-luz",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-27.jpg?v=1791591880367",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-27.jpg?v=1791591880367",
     "status": "available",
     "sort_order": 27,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:39.543506+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 168,
@@ -581,13 +581,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/cesto-para-roupas-sujas-com-tampa",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-28.jpg?v=1791591899547",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-28.jpg?v=1791591899547",
     "status": "available",
     "sort_order": 28,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:58.722949+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 169,
@@ -602,13 +602,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/kit-toalhas-de-banho-buddemeyer",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-29.jpg?v=1791591881278",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-29.jpg?v=1791591881278",
     "status": "available",
     "sort_order": 29,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:40.451642+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 170,
@@ -623,13 +623,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/jogo-de-tapetes-banheiro-antiderrapante",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-30.jpg?v=1791591900297",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-30.jpg?v=1791591900297",
     "status": "available",
     "sort_order": 30,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:59.470285+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 171,
@@ -644,13 +644,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/kit-acessorios-para-banheiro-completo",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-31.jpg?v=1791591901056",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-31.jpg?v=1791591901056",
     "status": "available",
     "sort_order": 31,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:00.229741+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 172,
@@ -665,13 +665,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.madeiramadeira.com.br/moveis/moveis-para-sala-de-jantar/conjuntos-de-mesa-com-6-cadeiras",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-32.jpg?v=1791591882428",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-32.jpg?v=1791591882428",
     "status": "available",
     "sort_order": 32,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:41.604608+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 173,
@@ -686,13 +686,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/kit-de-lixeiras-com-pedal",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-33.jpg?v=1791591939074",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-33.jpg?v=1791591939074",
     "status": "available",
     "sort_order": 33,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:38.278807+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 174,
@@ -707,13 +707,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/espelho-para-banheiro-com-moldura",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-34.jpg?v=1791591901866",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-34.jpg?v=1791591901866",
     "status": "available",
     "sort_order": 34,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:01.039149+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 175,
@@ -728,13 +728,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/espelho-grande-de-corpo-inteiro",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-35.jpg?v=1791591902602",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-35.jpg?v=1791591902602",
     "status": "available",
     "sort_order": 35,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:25:01.781036+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 176,
@@ -749,13 +749,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/tabua-de-passar-roupa-reforcada",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-36.jpg?v=1791591883588",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-36.jpg?v=1791591883588",
     "status": "available",
     "sort_order": 36,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:42.762321+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 177,
@@ -770,13 +770,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://www.kingstarcolchoes.com.br/listas/cama-box-queen-size",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-37.jpg?v=1791591884121",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-37.jpg?v=1791591884121",
     "status": "available",
     "sort_order": 37,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:43.295996+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 178,
@@ -791,13 +791,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/faqueiro-para-churrasco-tramontina",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-38.jpg?v=1791591884728",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-38.jpg?v=1791591884728",
     "status": "available",
     "sort_order": 38,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:43.901088+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 179,
@@ -812,13 +812,13 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://lista.mercadolivre.com.br/garrafa-termica-para-cafe-inox",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-39.jpg?v=1791591885267",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-39.jpg?v=1791591885267",
     "status": "available",
     "sort_order": 39,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:44.44288+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   },
   {
     "id": 180,
@@ -833,12 +833,12 @@ export const fallbackGifts: Gift[] = [
     "thanked": false,
     "notes": "https://guiarecomenda.com/melhor-liquidificador",
     "description": "Para o nosso novo lar com muito carinho.",
-    "image_url": "https://okuhlbczgvolpholvebc.supabase.co/storage/v1/object/public/gift-images/produtos/presente-40.jpg?v=1791591886045",
+    "image_url": "https://vnwcjprzubkszhuxqlbx.supabase.co/storage/v1/object/public/gift-images/produtos/presente-40.jpg?v=1791591886045",
     "status": "available",
     "sort_order": 40,
     "created_at": "2026-08-18T17:27:44.80613+00:00",
     "updated_at": "2026-10-10T00:24:45.21981+00:00",
-    "gift_type": "single",
-    "contributed_amount": 0
+    "contributed_amount": 0,
+    "gift_type": "single"
   }
 ];
