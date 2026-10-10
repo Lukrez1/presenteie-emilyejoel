@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+scratch/
+data/backup_*.json
+node_modules
+dist
