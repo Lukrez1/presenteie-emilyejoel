@@ -1,0 +1,318 @@
+{
+  "1": {
+    "q": "jogo de panelas tramontina turim 10 pecas",
+    "require": [
+      "panela",
+      "turim"
+    ],
+    "exclude": [
+      "tampa avulsa"
+    ]
+  },
+  "2": {
+    "q": "panela de pressao tramontina vancouver 4,5 l",
+    "require": [
+      "pressao",
+      "tramontina",
+      "4[,.]5"
+    ]
+  },
+  "3": {
+    "q": "assadeira retangular inox tramontina",
+    "require": [
+      "assadeira",
+      "inox"
+    ],
+    "keepPrice": true
+  },
+  "4": {
+    "q": "faqueiro tramontina ipanema 24 pecas",
+    "require": [
+      "ipanema",
+      "24"
+    ]
+  },
+  "5": {
+    "q": "faqueiro tramontina inox 24 pecas",
+    "require": [
+      "faqueiro|talheres",
+      "tramontina",
+      "24"
+    ]
+  },
+  "6": {
+    "q": "aparelho de jantar oxford porcelana 20 pecas",
+    "require": [
+      "oxford",
+      "20 ?p",
+      "jantar"
+    ]
+  },
+  "7": {
+    "q": "aparelho de jantar oxford 30 pecas",
+    "require": [
+      "oxford",
+      "30 ?p",
+      "jantar"
+    ]
+  },
+  "8": {
+    "q": "jogo 6 xicaras cafe porcelana com pires",
+    "require": [
+      "xicara",
+      "cafe"
+    ],
+    "keepPrice": true
+  },
+  "9": {
+    "q": "jogo de xicaras de cha oxford porcelana 6",
+    "require": [
+      "oxford",
+      "xicara",
+      "cha\\b"
+    ]
+  },
+  "10": {
+    "q": "potes hermeticos tramontina conjunto",
+    "require": [
+      "pote",
+      "tramontina"
+    ],
+    "exclude": [
+      "\\b1 (un|pote)"
+    ]
+  },
+  "11": {
+    "q": "kit potes mantimentos hermeticos com trava",
+    "require": [
+      "pote",
+      "hermetic|trava",
+      "kit|conjunto|jogo",
+      "\\b([4-9]|1[0-9]) ?(potes|pecas|pcs|un)"
+    ]
+  },
+  "12": {
+    "q": "kit utensilios silicone tramontina",
+    "require": [
+      "utensilio",
+      "silicone",
+      "tramontina"
+    ]
+  },
+  "13": {
+    "q": "air fryer mondial family inox 4l",
+    "require": [
+      "mondial",
+      "family"
+    ]
+  },
+  "14": {
+    "q": "microondas electrolux 20 litros",
+    "require": [
+      "electrolux",
+      "20 ?l",
+      "micro"
+    ]
+  },
+  "15": {
+    "q": "fogao atlas monaco top glass 5 bocas",
+    "require": [
+      "atlas",
+      "monaco",
+      "5 bocas"
+    ]
+  },
+  "16": {
+    "q": "batedeira planetaria philco php500 turbo",
+    "require": [
+      "php ?500"
+    ]
+  },
+  "17": {
+    "q": "multiprocessador philco all in one",
+    "require": [
+      "philco",
+      "multiprocessador|processador"
+    ]
+  },
+  "18": {
+    "q": "chaleira eletrica mondial inox",
+    "require": [
+      "chaleira",
+      "eletrica",
+      "inox"
+    ]
+  },
+  "19": {
+    "q": "sanduicheira eletrica cadence",
+    "require": [
+      "cadence",
+      "sanduicheira|grill"
+    ]
+  },
+  "20": {
+    "q": "guarda roupa casal 6 portas espelho",
+    "require": [
+      "guarda",
+      "6 portas",
+      "espelho"
+    ]
+  },
+  "21": {
+    "q": "ferro de passar a vapor philco",
+    "require": [
+      "ferro",
+      "vapor",
+      "philco|mondial"
+    ]
+  },
+  "22": {
+    "q": "cabeceira modulada madesa com mesas laterais",
+    "require": [
+      "cabeceira",
+      "madesa"
+    ]
+  },
+  "23": {
+    "q": "jogo de lencol casal 200 fios",
+    "require": [
+      "lencol",
+      "casal",
+      "200 ?fios"
+    ]
+  },
+  "24": {
+    "q": "edredom queen",
+    "require": [
+      "edredom",
+      "queen"
+    ]
+  },
+  "25": {
+    "q": "colcha matelasse casal",
+    "require": [
+      "colcha|cobre ?leito",
+      "matelass|matelad"
+    ]
+  },
+  "26": {
+    "q": "kit 2 travesseiros fibra siliconizada",
+    "require": [
+      "travesseiro",
+      "silicon"
+    ]
+  },
+  "27": {
+    "q": "cortina blackout corta luz",
+    "require": [
+      "cortina",
+      "blackout"
+    ]
+  },
+  "28": {
+    "q": "cesto roupa suja com tampa",
+    "require": [
+      "cesto",
+      "roupa"
+    ]
+  },
+  "29": {
+    "q": "jogo de toalhas de banho buddemeyer",
+    "require": [
+      "toalha",
+      "buddemeyer|karsten"
+    ]
+  },
+  "30": {
+    "q": "jogo tapetes banheiro antiderrapante 3 pecas",
+    "require": [
+      "tapete",
+      "banheiro"
+    ]
+  },
+  "31": {
+    "q": "kit acessorios banheiro saboneteira porta escova",
+    "require": [
+      "kit|jogo",
+      "banheiro"
+    ]
+  },
+  "32": {
+    "q": "conjunto mesa de jantar 6 cadeiras madeira macica",
+    "require": [
+      "mesa",
+      "6 cadeiras|6 lugares"
+    ]
+  },
+  "33": {
+    "q": "lixeira inox com pedal",
+    "require": [
+      "lixeira",
+      "pedal",
+      "inox"
+    ],
+    "keepPrice": true
+  },
+  "34": {
+    "q": "espelho banheiro com moldura",
+    "require": [
+      "espelho"
+    ]
+  },
+  "35": {
+    "q": "espelho grande corpo inteiro",
+    "require": [
+      "espelho",
+      "corpo inteiro|chao"
+    ]
+  },
+  "36": {
+    "q": "tabua de passar roupa",
+    "require": [
+      "tabua",
+      "passar"
+    ]
+  },
+  "37": {
+    "q": "cama box queen colchao molas ensacadas",
+    "require": [
+      "queen",
+      "box",
+      "ensacad"
+    ]
+  },
+  "38": {
+    "q": "faqueiro churrasco tramontina 12 pecas",
+    "require": [
+      "churrasco",
+      "tramontina",
+      "12"
+    ]
+  },
+  "39": {
+    "q": "garrafa termica cafe inox",
+    "require": [
+      "garrafa",
+      "termica"
+    ]
+  },
+  "40": {
+    "q": "liquidificador oster 1100 full",
+    "require": [
+      "oster",
+      "1100"
+    ]
+  },
+  "_info": "Uma entrada por presente (chave = source_id). 'q' é o texto buscado no Buscapé; 'require' são termos que TODOS precisam aparecer no nome do produto (regex, sem acento, minúsculo); 'exclude' descarta resultados. '_exclude_global' vale para todos (peças/acessórios).",
+  "_exclude_global": [
+    "\\bprato\\b(?=.*micro)",
+    "\\bcopo\\b(?=.*(liq|faca|multiprocessador))",
+    "reposicao",
+    "\\breparo\\b",
+    "\\bvalvula\\b",
+    "borracha",
+    "resistencia",
+    "\\brefil\\b",
+    "(jarra|faca|lamina|haste|tampa|engrenagem)\\b(?=.*(multiprocessador|liquidificador|processador))"
+  ]
+}

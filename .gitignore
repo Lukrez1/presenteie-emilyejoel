@@ -1,0 +1,13 @@
+node_modules
+dist
+.vercel
+*.tsbuildinfo
+
+# Segredos (o .env.example vai para o repositório como modelo)
+.env
+.env.local
+.env.*.local
+
+# Scripts de teste descartáveis e backups do banco
+scratch/
+data/backup_*.json
