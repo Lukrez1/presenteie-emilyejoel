@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Search, Sparkles, X, ChevronDown, Copy, Check } from 'lucide-react';
+import { Search, Sparkles, X, ChevronDown } from 'lucide-react';
 import type { FormEvent } from 'react';
 import { fallbackGifts } from './data/gifts';
 import { hasSupabaseConfig, supabase } from './lib/supabase';
@@ -10,7 +10,6 @@ import type { PaymentConfig } from './PaymentModal';
 const PRODUCT_IMAGE = 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80';
 const DEFAULT_DESCRIPTION = 'Para o nosso novo lar com muito carinho.';
 const QUOTA_THRESHOLD = 300;
-const PIX_KEY = '093.533.693-12';
 
 type PriceFilter = 'all' | 'upto200' | '200to500' | 'over500';
 type SortType = 'suggested' | 'price-asc' | 'price-desc';
@@ -322,7 +321,6 @@ function PublicPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [sort, setSort] = useState<SortType>('suggested');
   const [activeModal, setActiveModal] = useState<Gift | 'free' | null>(null);
-  const [pixCopied, setPixCopied] = useState(false);
   const [payConfig, setPayConfig] = useState<PaymentConfig | null>(null);
   const [checkout, setCheckout] = useState<{ target: Gift | 'free' | null; resumeId?: string } | null>(() => {
     const id = new URLSearchParams(window.location.search).get('pagamento');
@@ -348,16 +346,6 @@ function PublicPage() {
   function onContributeClick(target: Gift | 'free') {
     if (paymentsOn) setCheckout({ target });
     else setActiveModal(target);
-  }
-
-  async function copyPix() {
-    try {
-      await navigator.clipboard.writeText(PIX_KEY.replace(/\D/g, ''));
-      setPixCopied(true);
-      setTimeout(() => setPixCopied(false), 2500);
-    } catch {
-      setNotice(`Não foi possível copiar automaticamente. A chave é ${PIX_KEY}`);
-    }
   }
 
   async function loadGifts() {
@@ -566,28 +554,16 @@ function PublicPage() {
         )}
       </section>
 
-      {paymentsOn ? (
       <section className="pix-section">
-        <div className="pix-container">
-          <h3>Prefere dar um valor livre?</h3>
-          <p>Se nenhum presente fizer sentido, você pode contribuir com o valor que quiser para a nossa casa nova. O Pix é gerado na hora.</p>
-          <button className="gift-button free-cta" onClick={() => setCheckout({ target: 'free' })}>Contribuir com um valor personalizado</button>
-        </div>
+        {paymentsOn && (
+          <div className="pix-container">
+            <h3>Prefere dar um valor livre?</h3>
+            <p>Se nenhum presente fizer sentido, você pode contribuir com o valor que quiser para a nossa casa nova. O Pix é gerado na hora.</p>
+            <button className="gift-button free-cta" onClick={() => setCheckout({ target: 'free' })}>Contribuir com um valor personalizado</button>
+          </div>
+        )}
         <p className="footer-note">Com carinho, Emily &amp; Joel 🤍</p>
       </section>
-      ) : (
-      <section className="pix-section">
-        <div className="pix-container">
-          <h3>Nossa chave Pix</h3>
-          <p>Para quem preferir contribuir diretamente via Pix (CPF):</p>
-          <button className={`pix-key ${pixCopied ? 'copied' : ''}`} onClick={copyPix} aria-label={`Copiar chave Pix ${PIX_KEY}`}>
-            <span>{PIX_KEY}</span>
-            {pixCopied ? <><Check size={18} aria-hidden="true" /> Copiada!</> : <><Copy size={18} aria-hidden="true" /> Copiar</>}
-          </button>
-        </div>
-        <p className="footer-note">Com carinho, Emily &amp; Joel 🤍</p>
-      </section>
-      )}
 
       {checkout && payConfig && (
         <PaymentModal
@@ -628,7 +604,7 @@ interface AdminPayment {
 }
 
 const PAYMENT_STATUS: Record<string, string> = {
-  approved: 'Pago', pending: 'Aguardando', rejected: 'Recusado', cancelled: 'Cancelado', expired: 'Expirado', refunded: 'Estornado',
+  approved: 'Pago', pending: 'Aguardando', rejected: 'Recusado', cancelled: 'Cancelado', expired: 'Encerrado', refunded: 'Estornado',
 };
 
 function AdminPage() {

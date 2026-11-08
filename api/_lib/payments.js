@@ -78,24 +78,28 @@ export function holdUntil() {
 }
 
 // Busca o pagamento no Mercado Pago e, se aprovado, confirma no banco. Retorna o status atualizado.
-export async function syncPaymentStatus(supabase, payment) {
+export async function syncPaymentStatus(supabase, payment, knownPayment = null) {
   if (payment.status !== 'pending') return payment.status;
 
-  let mpPayment = null;
-  if (payment.mp_payment_id) {
-    mpPayment = await mp(`/v1/payments/${payment.mp_payment_id}`);
+  let attempts;
+  if (payment.method === 'pix' && payment.mp_payment_id) {
+    attempts = [await mp(`/v1/payments/${payment.mp_payment_id}`)];
   } else {
-    // Cartão (Checkout Pro): o id do pagamento só existe depois que o convidado paga
+    // Cartão (Checkout Pro): uma cobrança pode ter várias tentativas (recusada e depois aprovada) ou dois cartões
     const search = await mp(`/v1/payments/search?external_reference=${payment.id}&sort=date_created&criteria=desc`);
-    mpPayment = search.results?.find(p => p.status === 'approved') || search.results?.[0] || null;
+    attempts = search.results || [];
+    if (knownPayment && !attempts.some(p => p.id === knownPayment.id)) attempts.unshift(knownPayment);
   }
+  const mpPayment = attempts[0] || null;
 
-  if (mpPayment?.status === 'approved') {
-    if (Math.abs(Number(mpPayment.transaction_amount) - Number(payment.amount_charged)) > 0.01) {
-      console.error('Valor pago diferente do esperado', payment.id, mpPayment.transaction_amount, payment.amount_charged);
+  const approved = attempts.filter(p => p.status === 'approved');
+  if (approved.length) {
+    const totalPaid = approved.reduce((sum, p) => sum + Number(p.transaction_amount), 0);
+    if (Math.abs(totalPaid - Number(payment.amount_charged)) > 0.01) {
+      console.error('Valor pago diferente do esperado', payment.id, totalPaid, payment.amount_charged);
       return 'pending';
     }
-    const { error } = await supabase.rpc('confirm_payment', { p_payment_id: payment.id, p_mp_payment_id: String(mpPayment.id) });
+    const { error } = await supabase.rpc('confirm_payment', { p_payment_id: payment.id, p_mp_payment_id: String(approved[0].id) });
     if (error) throw error;
     return 'approved';
   }

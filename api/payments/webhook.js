@@ -20,11 +20,7 @@ export default async function handler(req, res) {
     const { data: payment } = await supabase.from('payments').select('*').eq('id', paymentId).single();
     if (!payment) return res.status(200).json({ ignored: true });
 
-    if (!payment.mp_payment_id) {
-      await supabase.from('payments').update({ mp_payment_id: String(mpPayment.id) }).eq('id', payment.id);
-      payment.mp_payment_id = String(mpPayment.id);
-    }
-    const status = await syncPaymentStatus(supabase, payment);
+    const status = await syncPaymentStatus(supabase, payment, mpPayment);
     return res.status(200).json({ ok: true, status });
   } catch (err) {
     console.error('Erro no webhook', dataId, err.message);

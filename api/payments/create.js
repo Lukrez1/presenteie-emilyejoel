@@ -33,14 +33,16 @@ export default async function handler(req, res) {
       kind = 'quota';
       const remaining = Number(gift.price) - Number(gift.contributed_amount || 0);
       net = Number(amount);
-      if (!(net >= 10)) return sendError(res, 400, 'O valor mínimo é R$ 10,00.');
+      // Se falta menos de R$ 10 para completar a cota, o mínimo passa a ser o que falta
+      const minimum = Math.min(10, remaining);
+      if (!(net > 0) || net < minimum - 0.001) return sendError(res, 400, `O valor mínimo é R$ ${minimum.toFixed(2).replace('.', ',')}.`);
       if (net > remaining + 0.001) return sendError(res, 400, `Esse presente só precisa de mais R$ ${remaining.toFixed(2).replace('.', ',')}.`);
     } else {
       kind = 'gift';
       if (gift.status !== 'available' || gift.received) return sendError(res, 409, 'Esse presente já foi reservado por outra pessoa.');
       // Outra pessoa está pagando este presente agora?
       const { data: holds } = await supabase.from('payments').select('id')
-        .eq('gift_id', gift.id).eq('status', 'pending').gt('hold_until', new Date().toISOString()).limit(1);
+        .eq('gift_id', gift.id).eq('status', 'pending').neq('payer_email', payerEmail).gt('hold_until', new Date().toISOString()).limit(1);
       if (holds?.length) return sendError(res, 409, 'Alguém está finalizando esse presente agora. Tente outro ou volte em alguns minutos.');
       net = Number(gift.price); // valor do presente vem do banco, nunca do navegador
     }

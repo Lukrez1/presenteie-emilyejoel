@@ -69,6 +69,9 @@ create policy "Public can read gifts" on public.gifts for select using (true);
 drop policy if exists "Admins can update gifts" on public.gifts;
 create policy "Admins can update gifts" on public.gifts for update using (public.is_app_admin()) with check (public.is_app_admin());
 
+drop policy if exists "Admins can insert gifts" on public.gifts;
+create policy "Admins can insert gifts" on public.gifts for insert with check (public.is_app_admin());
+
 drop policy if exists "Admins can read requests" on public.reservation_requests;
 create policy "Admins can read requests" on public.reservation_requests for select using (public.is_app_admin());
 

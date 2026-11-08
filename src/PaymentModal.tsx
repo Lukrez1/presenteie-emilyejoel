@@ -130,7 +130,8 @@ export function PaymentModal({
 
   async function submit(e: FormEvent) {
     e.preventDefault();
-    if (!amount || amount < 10) return setError('O valor mínimo é R$ 10,00.');
+    const minimum = Math.min(10, remaining);
+    if (!amount || amount < minimum - 0.001) return setError(`O valor mínimo é ${formatBRL(minimum)}.`);
     if (amount > remaining + 0.001) return setError(`Esse presente só precisa de mais ${formatBRL(remaining)}.`);
     setSending(true);
     setError(null);
